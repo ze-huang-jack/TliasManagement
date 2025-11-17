@@ -12,7 +12,9 @@
                 #{methodParams}, #{returnValue}, #{costTime})
     </insert>
     <select id="selectAll" resultType="com.zehuang.pojo.OperateLog">
-        select *
+        select operate_log.*,
+               emp.name operateEmpName
         from operate_log
+                 left join emp on operate_emp_id = emp.id
     </select>
 </mapper>
