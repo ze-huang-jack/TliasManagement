@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44cffbf4-5190-4cdb-85ac-af261965ae12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zehuang/TliasManagementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zehuang/TliasManagementApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="35EI6PF84042X38CZcFUNOOVwbM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TliasManagementApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TliasManagementApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TliasManagementApplicationTests.generateJwt.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TliasManagementApplicationTests.parseJWT.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TliasManagementApplicationTests.testGenJwt.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TliasManagementApplicationTests.testParseJwt.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.TliasManagementApplication.executor&quot;: &quot;Run&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/java-workspace/TliasManagement/src/main/resources/com/zehuang/mapper&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java-workspace\TliasManagement\src\main\resources\com\zehuang\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zehuang.config" />
+      <recent name="com.zehuang.pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TliasManagementApplication">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zehuang.controller.Demo" />
+      <module name="TliasManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zehuang.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TliasManagementApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TliasManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zehuang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zehuang" />
+      <option name="MAIN_CLASS_NAME" value="com.zehuang.TliasManagementApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TliasManagementApplicationTests.generateJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TliasManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zehuang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zehuang" />
+      <option name="MAIN_CLASS_NAME" value="com.zehuang.TliasManagementApplicationTests" />
+      <option name="METHOD_NAME" value="generateJwt(java.util.Map)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TliasManagementApplicationTests.parseJWT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TliasManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zehuang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zehuang" />
+      <option name="MAIN_CLASS_NAME" value="com.zehuang.TliasManagementApplicationTests" />
+      <option name="METHOD_NAME" value="parseJWT(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TliasManagementApplicationTests.testParseJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TliasManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zehuang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zehuang" />
+      <option name="MAIN_CLASS_NAME" value="com.zehuang.TliasManagementApplicationTests" />
+      <option name="METHOD_NAME" value="testParseJwt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TliasManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="TliasManagement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zehuang.TliasManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="JUnit.TliasManagementApplicationTests" />
+        <item itemvalue="JUnit.TliasManagementApplicationTests.generateJwt" />
+        <item itemvalue="JUnit.TliasManagementApplicationTests.parseJWT" />
+        <item itemvalue="JUnit.TliasManagementApplicationTests.testParseJwt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44cffbf4-5190-4cdb-85ac-af261965ae12" name="Changes" comment="" />
+      <created>1762668628970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762668628970</updated>
+      <workItem from="1762668630496" duration="772000" />
+      <workItem from="1762671994685" duration="50000" />
+      <workItem from="1762672061540" duration="18000" />
+      <workItem from="1762672190154" duration="11883000" />
+      <workItem from="1762784118425" duration="24612000" />
+      <workItem from="1762877257425" duration="353000" />
+      <workItem from="1762878554968" duration="43000" />
+      <workItem from="1762949623529" duration="16067000" />
+      <workItem from="1762980595479" duration="18536000" />
+      <workItem from="1763047446294" duration="17347000" />
+      <workItem from="1763065293432" duration="1234000" />
+      <workItem from="1763121379638" duration="1618000" />
+      <workItem from="1763123259603" duration="24600000" />
+      <workItem from="1763276233712" duration="9749000" />
+      <workItem from="1763307150683" duration="48000" />
+      <workItem from="1763374847941" duration="1229000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
