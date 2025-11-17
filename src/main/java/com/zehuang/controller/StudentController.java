@@ -1,5 +1,6 @@
 package com.zehuang.controller;
 
+import com.zehuang.annotaion.LogOperation;
 import com.zehuang.pojo.PageResult;
 import com.zehuang.pojo.Result;
 import com.zehuang.pojo.Student;
@@ -26,6 +27,7 @@ public class StudentController {
         return Result.success(pageResult);
     }
 
+    @LogOperation
     @PostMapping
     public Result save(@RequestBody Student student) {
         log.info("添加学员： {}", student);
@@ -40,6 +42,7 @@ public class StudentController {
         return Result.success(student);
     }
 
+    @LogOperation
     @PutMapping
     public Result update(@RequestBody Student student) {
         log.info("修改学员: {}", student);
@@ -47,6 +50,7 @@ public class StudentController {
         return Result.success();
     }
 
+    @LogOperation
     @DeleteMapping("/{ids}")
     public Result delete(@PathVariable List<Integer> ids) {
         log.info("批量删除学生: {}", ids);
@@ -54,6 +58,7 @@ public class StudentController {
         return Result.success();
     }
 
+    @LogOperation
     @PutMapping("/violation/{id}/{score}")
     public Result violation(@PathVariable Integer id, @PathVariable Short score) {
         log.info("违纪处理: {} {}", id , score);

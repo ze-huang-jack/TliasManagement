@@ -24,6 +24,7 @@ public class DeptController {
         List<Dept> deptList = deptService.findAll();
         return Result.success(deptList);
     }
+
     @LogOperation
     @DeleteMapping
     public Result delete(@RequestParam(value = "id", required = true) Integer deptId) {
@@ -31,6 +32,7 @@ public class DeptController {
         deptService.deleteById(deptId);
         return Result.success();
     }
+
     @LogOperation
     @PostMapping
     public Result save(@RequestBody Dept dept) {
@@ -45,6 +47,7 @@ public class DeptController {
         Dept dept = deptService.findById(deptId);
         return Result.success(dept);
     }
+
     @LogOperation
     @PutMapping
     public Result update(@RequestBody Dept dept) {

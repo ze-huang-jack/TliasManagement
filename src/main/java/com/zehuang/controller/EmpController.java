@@ -30,6 +30,7 @@ public class EmpController {
         PageResult<Emp> pageResult = empService.page(empQueryParam);
         return Result.success(pageResult);
     }
+
     @LogOperation
     @PostMapping
     public Result save(@RequestBody Emp emp) {
@@ -37,6 +38,7 @@ public class EmpController {
         empService.save(emp);
         return Result.success();
     }
+
     @LogOperation
     @DeleteMapping
     public Result delete(@RequestParam List<Integer> ids) {
@@ -51,6 +53,7 @@ public class EmpController {
         Emp emp = empService.getById(id);
         return Result.success(emp);
     }
+
     @LogOperation
     @PutMapping
     public Result update(@RequestBody Emp emp) {

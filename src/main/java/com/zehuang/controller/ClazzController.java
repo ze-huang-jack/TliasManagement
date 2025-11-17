@@ -43,6 +43,7 @@ public class ClazzController {
         Clazz clazz = clazzService.getById(id);
         return Result.success(clazz);
     }
+
     @LogOperation
     @PutMapping
     public Result update(@RequestBody Clazz clazz) {
@@ -50,6 +51,7 @@ public class ClazzController {
         clazzService.update(clazz);
         return Result.success();
     }
+
     @LogOperation
     @DeleteMapping("/{id}")
     public Result delete(@PathVariable Integer id) {
